@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3D Raincoat</title>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
+      background: transparent;
+    }
+    model-viewer {
+      width: 100%;
+      height: 100%;
+      background: transparent;
+    }
+  </style>
+</head>
+<body>
+  <model-viewer src="https://example.com/womens_oversize_raincoat-2.glb" 
+                alt="Oversize Raincoat" 
+                camera-controls 
+                auto-rotate
+                background-color="transparent">
+  </model-viewer>
+</body>
+</html>
